@@ -6,3 +6,9 @@
 #### fileOutputStream
 #### pipes
 #### system.in system.out system.err
+#### ByteArrayInputStream
+#### ByteArrayOutputStream
+
+### JAVA-NIO
+#### NIOChannel
+#### MIOFiles
