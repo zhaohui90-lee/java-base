@@ -14,3 +14,7 @@
 ### JAVA-NIO
 #### NIOChannel
 #### MIOFiles
+
+### Serializable java序列化
+#### Person 序列化示例
+#### MyExternalizable 自定义序列化
