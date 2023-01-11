@@ -1,20 +1,17 @@
-package org.melody.Multithreaded;
+package org.melody.MultithreadedServer;
 
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * @author lizhaohui
  * @since 2023/1/10
  */
-class SingleThreadedServerTest {
+class MultiThreadedServerTest {
 
     @Test
     void run() {
 
-        SingleThreadedServer server = new SingleThreadedServer(9000);
-
+        MultiThreadedServer server = new MultiThreadedServer(9000);
         new Thread(server).start();
 
         try {

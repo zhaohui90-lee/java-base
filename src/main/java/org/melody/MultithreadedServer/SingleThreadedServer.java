@@ -1,4 +1,4 @@
-package org.melody.Multithreaded;
+package org.melody.MultithreadedServer;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -13,7 +13,7 @@ import java.nio.charset.StandardCharsets;
  */
 public class SingleThreadedServer implements Runnable{
 
-    protected int serverPort = 8080;
+    protected int serverPort;
     protected ServerSocket serverSocket = null;
     protected boolean isStopped = false;
     protected Thread runningThread = null;

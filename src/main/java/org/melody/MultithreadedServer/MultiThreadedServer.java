@@ -1,11 +1,8 @@
-package org.melody.Multithreaded;
+package org.melody.MultithreadedServer;
 
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.nio.charset.StandardCharsets;
 
 /**
  * @author lizhaohui
@@ -13,7 +10,7 @@ import java.nio.charset.StandardCharsets;
  */
 public class MultiThreadedServer implements Runnable{
 
-    protected int serverPort = 8080;
+    protected int serverPort;
     protected ServerSocket serverSocket = null;
     protected boolean isStopped = false;
     protected Thread runningThread = null;
@@ -50,27 +47,6 @@ public class MultiThreadedServer implements Runnable{
             ).start();
         }
         System.out.println("Server Stopped.");
-    }
-
-    private void processClientRequest(Socket clientSocket) throws IOException {
-        InputStream inputStream = clientSocket.getInputStream();
-        OutputStream outputStream = clientSocket.getOutputStream();
-        long time = System.currentTimeMillis();
-
-        byte[] responseDocument = ("<html><body> Singlethreaded Server: "
-                + time + "</body></html>").getBytes(StandardCharsets.UTF_8);
-
-        byte[] responseHeader =
-                ("HTTP/1.1 200 OK\r\n" +
-                        "Content-Type: text/html; charset=UTF-8\r\n" +
-                        "Content-Length: " + responseDocument.length +
-                        "\r\n\r\n").getBytes(StandardCharsets.UTF_8);
-
-        outputStream.write(responseHeader);
-        outputStream.write(responseDocument);
-        outputStream.close();
-        inputStream.close();
-        System.out.println("Request processed: " + time);
     }
 
     private synchronized boolean isStopped() {

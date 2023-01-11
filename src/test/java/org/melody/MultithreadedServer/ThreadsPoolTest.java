@@ -1,20 +1,18 @@
-package org.melody.Multithreaded;
+package org.melody.MultithreadedServer;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 /**
  * @author lizhaohui
- * @since 2023/1/10
+ * @since 2023/1/11
  */
-class MultiThreadedServerTest {
+class ThreadsPoolTest {
 
     @Test
     void run() {
 
-        MultiThreadedServer server = new MultiThreadedServer(9000);
-        new Thread(server).start();
+        ThreadsPool threadsPool = new ThreadsPool(9000);
+        new Thread(threadsPool).start();
 
         try {
             Thread.sleep(20 * 1000);
@@ -22,6 +20,6 @@ class MultiThreadedServerTest {
             throw new RuntimeException(e);
         }
         System.out.println("stopping server");
-        server.stop();
+        threadsPool.stop();
     }
 }

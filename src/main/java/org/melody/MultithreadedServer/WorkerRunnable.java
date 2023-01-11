@@ -1,4 +1,4 @@
-package org.melody.Multithreaded;
+package org.melody.MultithreadedServer;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,8 +11,8 @@ import java.net.Socket;
  */
 public class WorkerRunnable implements Runnable{
 
-    protected Socket clientSocket = null;
-    protected String serverText = null;
+    protected Socket clientSocket;
+    protected String serverText;
 
     public WorkerRunnable(Socket clientSocket, String serverText) {
         this.clientSocket = clientSocket;
