@@ -34,6 +34,7 @@ public class SingleThreadedServer implements Runnable{
             System.out.println("----->new socket");
             Socket clientSocket;
             try {
+                // 此方法有可能会被阻塞 保证线程安全
                 clientSocket = this.serverSocket.accept();
             } catch (IOException e) {
                 if (isStopped()) {
