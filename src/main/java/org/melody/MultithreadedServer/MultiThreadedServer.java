@@ -8,7 +8,7 @@ import java.net.Socket;
  * @author lizhaohui
  * @since 2023/1/10
  */
-public class MultiThreadedServer implements Runnable{
+public class MultiThreadedServer implements Runnable {
 
     protected int serverPort;
     protected ServerSocket serverSocket = null;
