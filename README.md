@@ -58,3 +58,36 @@
 ![https://jenkov.com/images/java-concurrency/concurrency-vs-parallelism-4.png](https://jenkov.com/images/java-concurrency/concurrency-vs-parallelism-4.png)
 
 如果相反，4个子任务由在各自的CPU上运行的4个线程执行(总共4个CPU)，那么任务执行将是完全并行的。但要将一个进程精确地划分为与可用cpu数目相同的子进程，并不总是那么容易。通常，更容易的做法是将一个任务分解为若干子任务，这些子任务自然地与当前的任务相适应，然后让线程调度器负责在可用的cpu之间分配线程。
+
+
+### 线程安全
+#### 竞态条件和临界区
+```java
+public class Counter implements Runnable {
+
+    protected Count c;
+
+    private int addVal;
+
+    public Counter(Count count, int addVal) {
+        this.c = count;
+        this.addVal = addVal;
+    }
+
+  // 两个线程竞争同一资源的情况，访问资源的顺序很重要，这种情况称为竞争条件(race condition)。
+  // 导致竞争条件的代码段称为临界区(critical section)。
+    @Override
+    public void run() {
+        synchronized (this) {
+            for (int i = 0; i < 10; i++) {
+                c.add(this.addVal);
+                System.out.println("add value " + this.addVal + " to register");
+                System.out.println("now count is " + c.count);
+            }
+
+        }
+
+    }
+}
+```
+
