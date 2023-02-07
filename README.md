@@ -25,6 +25,11 @@
 #### WorkerRunnable 线程启动
 #### ThreadPoolServer 线程池服务
 
+### pojo
+#### hashcode和equals
+
+
+
 ### 并发和并行
 
 #### 并发
