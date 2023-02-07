@@ -3,7 +3,7 @@ package org.melody.singleInstance;
 import java.io.Serializable;
 
 /**
- * 单例模式
+ * 单例模式(不推荐)
  *  双重校验锁 线程安全
  *  <b>使用了 volatile 关键字来保证变量的可见性，但是在 Java 5 之后，由于 JMM（Java 内存模型）的改进，double-checked locking 技巧不再需要使用 volatile 关键字。</b>
  *  <b>单例模式的初始化可能受到反射和序列化等技术的干扰，需要添加更多的保护机制来保护单例。</b>
@@ -18,9 +18,9 @@ public class Singleton1 implements Serializable {
     private static volatile Singleton1 singleton;
 
     private Singleton1() {
-        // 私有化构造函数并使用 throw new AssertionError() 防止通过反射创建实例。
+        // 私有化构造函数并使用 throw new IllegalStateException() 防止通过反射创建实例。
         if (singleton != null) {
-            throw new AssertionError();
+            throw new IllegalStateException("Already created.");
         }
     }
 
