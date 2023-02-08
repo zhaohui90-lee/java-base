@@ -2,8 +2,13 @@ package org.melody.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Unmarshaller;
+import java.io.StringReader;
 import java.lang.reflect.Type;
 import java.util.Map;
 
@@ -15,17 +20,13 @@ public class XmlToMapJackson {
 
 
 
-    public static void main(String[] args) throws JsonProcessingException {
-        String string = "<root><element1>value1</element1><element2>value2</element2></root>";
-        System.out.println(string);
-        XmlMapper xmlMapper = new XmlMapper();
-
-        Map<String, Object> map = xmlMapper.readValue(string, new TypeReference<Map<String, Object>>() {
-            @Override
-            public Type getType() {
-                return super.getType();
-            }
+    public static void main(String[] args) throws JsonProcessingException, JAXBException {
+        String xml = "<root><Name>John</Name><age>30</age><dd>a</dd></root>";
+        XmlMapper mapper = new XmlMapper();
+        Map<String, Object> map = mapper.readValue(xml, new TypeReference<Map<String, Object>>() {
         });
+
         System.out.println(map);
     }
+
 }
