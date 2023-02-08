@@ -1,7 +1,5 @@
 package org.melody.singleInstance;
 
-import java.io.Serializable;
-
 /**
  * 使用枚举类创建单例模式 (推荐)
  *  能够有效防止反射的干扰
