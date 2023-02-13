@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Head>
+        <ResultCode>Success</ResultCode>
+        <MsgID>650a8b66-7228-4dd8-bcdc-5d9be526a048</MsgID>
+    </Head>
+    <ExamFileResult>
+        <ResultCode>Success</ResultCode>
+        <FileList>
+            <ExamFile>
+                <FileType>ExamResult</FileType>
+                <FileFormat>Pdf</FileFormat>
+                <FilePath>HTTP://172.77.13.49:81/DocumentService/Download/Document?fileUid=33F248DB-1B51-47BB-AEDE-19150AFAA199&amp;preferredContentType=application/pdf</FilePath>
+            </ExamFile>
+        </FileList>
+    </ExamFileResult>
+</Response>

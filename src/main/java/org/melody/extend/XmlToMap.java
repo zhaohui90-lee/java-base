@@ -1,4 +1,4 @@
-package org.melody.utils;
+package org.melody.extend;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

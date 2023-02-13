@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Head>
+        <ResultCode>Success</ResultCode>
+        <MsgID>c5de4353-78c3-4c47-a61d-88b0134bf91a</MsgID>
+    </Head>
+    <ExamInfoResult>
+        <ResultCode>Success</ResultCode>
+        <ExamInfoList>
+            <ExamInfo>
+                <PatientID>CT-371672</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>59</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO />
+                <AddressDetail />
+                <WorkUnit />
+                <OrganizationID>47151075233068211A2101</OrganizationID>
+                <VisitID />
+                <PatientClass>门诊</PatientClass>
+                <PatientType>门诊</PatientType>
+                <MedRecNO>E1718729X</MedRecNO>
+                <OutPatientNO />
+                <InPatientNO />
+                <CardNO />
+                <PointOfCare />
+                <Bed />
+                <PlacerOrderNO>365463_21</PlacerOrderNO>
+                <ServiceID />
+                <ServiceText>常规CT</ServiceText>
+                <ServiceSectID>CT</ServiceSectID>
+                <ProcedureName>上腹部CT平扫|盆腔CT平扫|下腹部（肝下缘至腰5下缘）CT平扫</ProcedureName>
+                <RequestDeptID />
+                <RequestDeptName>内科</RequestDeptName>
+                <ClinicDiagnosis>健康查体,便秘</ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges />
+                <TechnicianID />
+                <TechnicianName>陈洁</TechnicianName>
+                <AccessionNumber>983864</AccessionNumber>
+                <FillerOrderNO>983864</FillerOrderNO>
+                <RegTime>2017-06-30 08:49:32</RegTime>
+                <ObservationDate>2017-06-30 10:01:02</ObservationDate>
+                <ResultAssistantID />
+                <ResultAssistantName>张慧</ResultAssistantName>
+                <ResultPrincipalID />
+                <ResultPrincipalName>陈浩军</ResultPrincipalName>
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate>2017-06-30 10:36:00</PreliminaryDate>
+                <AuditDate>2017-06-30 10:36:06</AuditDate>
+                <ReviseDate />
+                <ImageSight>    肝包膜光整，各叶比例正常，肝左叶可见两个点状钙化影，边缘清楚。肝内外胆管未见明显扩张；胆胰脾肾无殊，腹腔未见明显积液，腹膜后未见明显肿大淋巴结。所示肠腔未见明显扩张及积液，肠系膜间隙清。
+                    膀胱充盈良好，未见明显异常密度影。子宫形态大小正常，盆腔未见明显积液。
+                </ImageSight>
+                <ImageDiagnosis>    肝左叶钙化灶。</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>ZZ-0011317</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>59</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO>13867829176</ContactPhoneNO>
+                <AddressDetail>岭南乡白龙潭村王柏传</AddressDetail>
+                <WorkUnit />
+                <OrganizationID>74202913633068211C2101</OrganizationID>
+                <VisitID />
+                <PatientClass>门诊</PatientClass>
+                <PatientType>普通</PatientType>
+                <MedRecNO>20130328000009</MedRecNO>
+                <OutPatientNO />
+                <InPatientNO />
+                <CardNO>20130328000009</CardNO>
+                <PointOfCare />
+                <Bed />
+                <PlacerOrderNO>12321444</PlacerOrderNO>
+                <ServiceID>05001</ServiceID>
+                <ServiceText>普通摄片</ServiceText>
+                <ServiceSectID>DR</ServiceSectID>
+                <ProcedureName>腰椎正侧位</ProcedureName>
+                <RequestDeptID />
+                <RequestDeptName>外科诊间</RequestDeptName>
+                <ClinicDiagnosis>软组织疾患</ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges />
+                <TechnicianID />
+                <TechnicianName />
+                <AccessionNumber>ZZ-25260</AccessionNumber>
+                <FillerOrderNO>27326</FillerOrderNO>
+                <RegTime>2017-07-16 08:24:54</RegTime>
+                <ObservationDate>2017-07-16 08:24:54</ObservationDate>
+                <ResultAssistantID>002</ResultAssistantID>
+                <ResultAssistantName>张章华</ResultAssistantName>
+                <ResultPrincipalID>496</ResultPrincipalID>
+                <ResultPrincipalName>吴荣鑫</ResultPrincipalName>
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate>2017-07-16 08:29:13</PreliminaryDate>
+                <AuditDate>2017-07-16 09:30:00</AuditDate>
+                <ReviseDate />
+                <ImageSight>腰椎生理曲度存在，椎体上下缘唇样骨质增生，椎间隙未见增宽或变窄。附件无殊。脊柱侧弯。</ImageSight>
+                <ImageDiagnosis>腰椎退行性改变。脊柱侧弯。</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>LN201800723</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>60</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO />
+                <AddressDetail>岭南乡白龙潭村王柏传</AddressDetail>
+                <WorkUnit />
+                <OrganizationID>73601929X33068212C2201</OrganizationID>
+                <VisitID>T7900007341</VisitID>
+                <PatientClass>体检</PatientClass>
+                <PatientType>体检</PatientType>
+                <MedRecNO>T7900007341</MedRecNO>
+                <OutPatientNO />
+                <InPatientNO />
+                <CardNO />
+                <PointOfCare />
+                <Bed />
+                <PlacerOrderNO>T510169</PlacerOrderNO>
+                <ServiceID>F2AA0712-DC16-1AA8-E043-360D4DACDF16</ServiceID>
+                <ServiceText>静息心电</ServiceText>
+                <ServiceSectID>ECG</ServiceSectID>
+                <ProcedureName />
+                <RequestDeptID>71a37c04-9059-4fd7-8917-6f92a5daa0e8</RequestDeptID>
+                <RequestDeptName>健康体检</RequestDeptName>
+                <ClinicDiagnosis>健康查体</ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges />
+                <TechnicianID>4c467a34-6595-4840-8aec-a46800aacf24</TechnicianID>
+                <TechnicianName>谷烨(体检)</TechnicianName>
+                <AccessionNumber>LN201800723</AccessionNumber>
+                <FillerOrderNO>LN201800723</FillerOrderNO>
+                <RegTime>2018-04-04 07:38:08</RegTime>
+                <ObservationDate>2018-04-04 07:38:12</ObservationDate>
+                <ResultAssistantID>4c467a34-6595-4840-8aec-a46800aacf24</ResultAssistantID>
+                <ResultAssistantName>谷烨(体检)</ResultAssistantName>
+                <ResultPrincipalID>4c467a34-6595-4840-8aec-a46800aacf24</ResultPrincipalID>
+                <ResultPrincipalName>谷烨(体检)</ResultPrincipalName>
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate />
+                <AuditDate>2018-04-04 08:01:29</AuditDate>
+                <ReviseDate />
+                <ImageSight> </ImageSight>
+                <ImageDiagnosis>窦性心律</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>2217665</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>60</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO>13566085869</ContactPhoneNO>
+                <AddressDetail />
+                <WorkUnit />
+                <OrganizationID>47151074433068211A1001</OrganizationID>
+                <VisitID />
+                <PatientClass>门诊</PatientClass>
+                <PatientType>门诊</PatientType>
+                <MedRecNO>02770269</MedRecNO>
+                <OutPatientNO>E1718729X</OutPatientNO>
+                <InPatientNO />
+                <CardNO>E1718729X</CardNO>
+                <PointOfCare />
+                <Bed />
+                <PlacerOrderNO>1705543-E1718729X</PlacerOrderNO>
+                <ServiceID>4005</ServiceID>
+                <ServiceText>普通摄片</ServiceText>
+                <ServiceSectID>DR</ServiceSectID>
+                <ProcedureName>胸椎正侧位片</ProcedureName>
+                <RequestDeptID>008</RequestDeptID>
+                <RequestDeptName>外科</RequestDeptName>
+                <ClinicDiagnosis>一般性医学检查
+                </ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges />
+                <TechnicianID>1596</TechnicianID>
+                <TechnicianName>王泽锋</TechnicianName>
+                <AccessionNumber>1206935</AccessionNumber>
+                <FillerOrderNO>RIS1206935</FillerOrderNO>
+                <RegTime>2018-09-16 10:25:49</RegTime>
+                <ObservationDate>2018-09-16 10:25:49</ObservationDate>
+                <ResultAssistantID>1567</ResultAssistantID>
+                <ResultAssistantName>柴洪泽</ResultAssistantName>
+                <ResultPrincipalID>695</ResultPrincipalID>
+                <ResultPrincipalName>俞百中</ResultPrincipalName>
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate>2018-09-16 10:40:06</PreliminaryDate>
+                <AuditDate>2018-09-16 11:17:40</AuditDate>
+                <ReviseDate />
+                <ImageSight>胸椎序列规整，生理曲度存在，约T8-12椎体不同程度楔形变，诸椎体不同程度增生，椎间隙未见异常。</ImageSight>
+                <ImageDiagnosis>约T8-12椎体不同程度楔形变，胸椎骨质增生，必要时MR检查。</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>Z00156208</PatientID>
+                <Name>王小娟</Name>
+                <Sex>F</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>61</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO>13566085869</ContactPhoneNO>
+                <AddressDetail>岭南乡白龙潭村王柏传</AddressDetail>
+                <WorkUnit />
+                <OrganizationID>47151075233068211A2101</OrganizationID>
+                <VisitID />
+                <PatientClass>住院</PatientClass>
+                <PatientType />
+                <MedRecNO>Z00156208</MedRecNO>
+                <OutPatientNO />
+                <InPatientNO>00156208</InPatientNO>
+                <CardNO />
+                <PointOfCare>五病区</PointOfCare>
+                <Bed>511</Bed>
+                <PlacerOrderNO>Z82780</PlacerOrderNO>
+                <ServiceID />
+                <ServiceText>静息心电</ServiceText>
+                <ServiceSectID>ECG</ServiceSectID>
+                <ProcedureName />
+                <RequestDeptID />
+                <RequestDeptName>内分泌内科*</RequestDeptName>
+                <ClinicDiagnosis>糖尿病&lt;E14.900&gt;</ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges />
+                <TechnicianID />
+                <TechnicianName>孙菁</TechnicianName>
+                <AccessionNumber>SYZYY201910922</AccessionNumber>
+                <FillerOrderNO>SYZYY201910922</FillerOrderNO>
+                <RegTime>2019-05-05 08:14:45</RegTime>
+                <ObservationDate>2019-05-05 08:14:50</ObservationDate>
+                <ResultAssistantID />
+                <ResultAssistantName>王文静</ResultAssistantName>
+                <ResultPrincipalID />
+                <ResultPrincipalName />
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate />
+                <AuditDate />
+                <ReviseDate />
+                <ImageSight />
+                <ImageDiagnosis>1.窦性心律
+                    2.左室高电压</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>Z00156208</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>60</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO>13566085869</ContactPhoneNO>
+                <AddressDetail>岭南乡白龙潭村王柏传</AddressDetail>
+                <WorkUnit>岭南乡白龙潭村王柏传</WorkUnit>
+                <OrganizationID>47151075233068211A2101</OrganizationID>
+                <VisitID />
+                <PatientClass>住院</PatientClass>
+                <PatientType />
+                <MedRecNO>Z00156208</MedRecNO>
+                <OutPatientNO />
+                <InPatientNO>00156208</InPatientNO>
+                <CardNO />
+                <PointOfCare>五病区</PointOfCare>
+                <Bed>五病区511</Bed>
+                <PlacerOrderNO>Z82781</PlacerOrderNO>
+                <ServiceID>08</ServiceID>
+                <ServiceText>普通彩超</ServiceText>
+                <ServiceSectID>US</ServiceSectID>
+                <ProcedureName>肝胆脾胰双肾</ProcedureName>
+                <RequestDeptID />
+                <RequestDeptName>内分泌内科*</RequestDeptName>
+                <ClinicDiagnosis>糖尿病&amp;lt;E14.900&gt;</ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges />
+                <TechnicianID>954</TechnicianID>
+                <TechnicianName>沈雅琴</TechnicianName>
+                <AccessionNumber>US315046</AccessionNumber>
+                <FillerOrderNO>315046</FillerOrderNO>
+                <RegTime>2019-05-04 14:23:01</RegTime>
+                <ObservationDate>2019-05-05 09:30:30</ObservationDate>
+                <ResultAssistantID>954</ResultAssistantID>
+                <ResultAssistantName>沈雅琴</ResultAssistantName>
+                <ResultPrincipalID />
+                <ResultPrincipalName />
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate>2019-05-05 09:30:30</PreliminaryDate>
+                <AuditDate />
+                <ReviseDate />
+                <ImageSight>肝脏大小正常范围，包膜光整，实质回声均匀，肝内胆管不扩张，肝静脉纹理清晰，门静脉主干内径不扩张。
+                    胆囊大小正常范围,轮廓清，囊壁光滑，囊内未见明显异常回声，胆总管显示段不扩张。
+                    胰腺轮廓尚清晰，厚度正常，内回声均匀，胰管未见扩张。
+                    脾脏大小正常范围，形态可，包膜规整，内回声均匀。
+                    双肾形态大小正常，实质回声均匀，皮髓分界清，集合系统未见分离。</ImageSight>
+                <ImageDiagnosis>肝胆胰脾肾未见明显异常</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>Z00156208</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>60</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO>13566085869</ContactPhoneNO>
+                <AddressDetail>岭南乡白龙潭村王柏传</AddressDetail>
+                <WorkUnit>岭南乡白龙潭村王柏传</WorkUnit>
+                <OrganizationID>47151075233068211A2101</OrganizationID>
+                <VisitID />
+                <PatientClass>住院</PatientClass>
+                <PatientType />
+                <MedRecNO>Z00156208</MedRecNO>
+                <OutPatientNO />
+                <InPatientNO>00156208</InPatientNO>
+                <CardNO />
+                <PointOfCare>五病区</PointOfCare>
+                <Bed>五病区511</Bed>
+                <PlacerOrderNO>Z82789</PlacerOrderNO>
+                <ServiceID>08</ServiceID>
+                <ServiceText>普通彩超</ServiceText>
+                <ServiceSectID>US</ServiceSectID>
+                <ProcedureName>右下肢静脉</ProcedureName>
+                <RequestDeptID />
+                <RequestDeptName>内分泌内科*</RequestDeptName>
+                <ClinicDiagnosis>糖尿病&amp;lt;E14.900&gt;</ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges />
+                <TechnicianID>096</TechnicianID>
+                <TechnicianName>沈敏峰</TechnicianName>
+                <AccessionNumber>US315052</AccessionNumber>
+                <FillerOrderNO>315052</FillerOrderNO>
+                <RegTime>2019-05-04 14:25:30</RegTime>
+                <ObservationDate>2019-05-06 15:07:23</ObservationDate>
+                <ResultAssistantID>096</ResultAssistantID>
+                <ResultAssistantName>沈敏峰</ResultAssistantName>
+                <ResultPrincipalID />
+                <ResultPrincipalName />
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate>2019-05-06 15:19:19</PreliminaryDate>
+                <AuditDate />
+                <ReviseDate />
+                <ImageSight>    右侧下肢深静脉扫查：
+                    右侧股总、股浅、股深、奈静脉内径正常范围，管腔内无明显异常回声，探头加压后管腔能被完全压瘪。
+                    CDFI示血流回流通畅，血流信号充盈良好。</ImageSight>
+                <ImageDiagnosis>右下肢深静脉未见明显异常</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>Z00156208</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>60</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO>13566085869</ContactPhoneNO>
+                <AddressDetail>岭南乡白龙潭村王柏传</AddressDetail>
+                <WorkUnit>岭南乡白龙潭村王柏传</WorkUnit>
+                <OrganizationID>47151075233068211A2101</OrganizationID>
+                <VisitID />
+                <PatientClass>住院</PatientClass>
+                <PatientType />
+                <MedRecNO>Z00156208</MedRecNO>
+                <OutPatientNO />
+                <InPatientNO>00156208</InPatientNO>
+                <CardNO />
+                <PointOfCare>五病区</PointOfCare>
+                <Bed>五病区511</Bed>
+                <PlacerOrderNO>Z82783</PlacerOrderNO>
+                <ServiceID>08</ServiceID>
+                <ServiceText>普通彩超</ServiceText>
+                <ServiceSectID>US</ServiceSectID>
+                <ProcedureName>双侧颈动脉</ProcedureName>
+                <RequestDeptID />
+                <RequestDeptName>内分泌内科*</RequestDeptName>
+                <ClinicDiagnosis>糖尿病&amp;lt;E14.900&gt;</ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges />
+                <TechnicianID>096</TechnicianID>
+                <TechnicianName>沈敏峰</TechnicianName>
+                <AccessionNumber>US315054</AccessionNumber>
+                <FillerOrderNO>315054</FillerOrderNO>
+                <RegTime>2019-05-04 14:25:46</RegTime>
+                <ObservationDate>2019-05-06 15:11:47</ObservationDate>
+                <ResultAssistantID>096</ResultAssistantID>
+                <ResultAssistantName>沈敏峰</ResultAssistantName>
+                <ResultPrincipalID />
+                <ResultPrincipalName />
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate>2019-05-06 15:21:31</PreliminaryDate>
+                <AuditDate />
+                <ReviseDate />
+                <ImageSight>双侧颈动脉扫查：
+                    双侧颈总、内、外动脉内径正常范围，内膜光滑，双侧颈总动脉内－中膜厚度分别为0.7mm（左）、0.6mm（右），右侧颈动脉球部可见斑片状强回声，约0.28*0.07cm，管腔未见明显狭窄。
+                    CDFI示血流尚通畅。</ImageSight>
+                <ImageDiagnosis>右侧颈动脉球部硬化斑块</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>Z00156208</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>60</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO>13566085869</ContactPhoneNO>
+                <AddressDetail>岭南乡白龙潭村王柏传</AddressDetail>
+                <WorkUnit>岭南乡白龙潭村王柏传</WorkUnit>
+                <OrganizationID>47151075233068211A2101</OrganizationID>
+                <VisitID />
+                <PatientClass>住院</PatientClass>
+                <PatientType />
+                <MedRecNO>Z00156208</MedRecNO>
+                <OutPatientNO />
+                <InPatientNO>00156208</InPatientNO>
+                <CardNO />
+                <PointOfCare>五病区</PointOfCare>
+                <Bed>五病区511</Bed>
+                <PlacerOrderNO>Z82782</PlacerOrderNO>
+                <ServiceID>09</ServiceID>
+                <ServiceText>心脏彩超</ServiceText>
+                <ServiceSectID>US</ServiceSectID>
+                <ProcedureName>心脏+左心功能测定</ProcedureName>
+                <RequestDeptID />
+                <RequestDeptName>内分泌内科*</RequestDeptName>
+                <ClinicDiagnosis>糖尿病&amp;lt;E14.900&gt;</ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges />
+                <TechnicianID>097</TechnicianID>
+                <TechnicianName>赵春烽</TechnicianName>
+                <AccessionNumber>US315047</AccessionNumber>
+                <FillerOrderNO>315047</FillerOrderNO>
+                <RegTime>2019-05-04 14:23:15</RegTime>
+                <ObservationDate>2019-05-06 15:05:58</ObservationDate>
+                <ResultAssistantID>097</ResultAssistantID>
+                <ResultAssistantName>赵春烽</ResultAssistantName>
+                <ResultPrincipalID />
+                <ResultPrincipalName />
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate>2019-05-06 15:05:58</PreliminaryDate>
+                <AuditDate />
+                <ReviseDate />
+                <ImageSight>心脏测值及左心功能测定:                             图像质量：乙
+                    主动脉根部内径&amp;lt;AORD&gt;：30mm(23-38)     左室短轴缩短分数&amp;lt;FS&gt;：42%(28-45)
+                    左房内径&amp;lt;LAD&gt;：43mm(20-40)             射血分数&amp;lt;EF&gt;：73%(55-81)
+                    左室舒张内径&amp;lt;LVDd&gt;：43mm(男40-55女30-50）室间隔厚度&amp;lt;IVS&gt;：9mm(6-11)
+                    左室收缩内径&amp;lt;LVDs&gt;：25mm(21-38)         左室后壁厚度&amp;lt;PW&gt;：9mm(6-11)
+                    左心房偏大，余心脏各腔室形态大小正常范围，腔内未见明显异常回声，室间隔及左室后壁厚度正常，活动协调，收缩幅度正常；房室间隔结构完整；心包未见分离。
+                    二尖瓣回声纤细；启闭无殊；CDFI示瓣下见微量反流血流信号；PW测得二尖瓣口E-Vmax=0.66 m/s,A-Vmax= 0.98m/s。E峰&amp;lt;A峰。
+                    三尖瓣回声纤细；启闭无殊；CDFI示瓣下见微量反流血流信号。
+                    主动脉瓣回声纤细；启闭无殊；CDFI示瓣下未见明显反流血流信号；PW测得AO-Vmax=1.2m/s。
+                    主动脉内径正常，主波低平，重搏波消失；肺动脉内径正常。</ImageSight>
+                <ImageDiagnosis>主动脉硬化
+                    左心房偏大
+                    左室舒张功能减退
+                    二尖瓣、三尖瓣轻微反流</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>Z00156208</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>60</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO>13566085869</ContactPhoneNO>
+                <AddressDetail>岭南乡白龙潭村王柏传</AddressDetail>
+                <WorkUnit>岭南乡白龙潭村王柏传</WorkUnit>
+                <OrganizationID>47151075233068211A2101</OrganizationID>
+                <VisitID />
+                <PatientClass>住院</PatientClass>
+                <PatientType />
+                <MedRecNO>Z00156208</MedRecNO>
+                <OutPatientNO />
+                <InPatientNO>00156208</InPatientNO>
+                <CardNO />
+                <PointOfCare>五病区</PointOfCare>
+                <Bed>五病区511</Bed>
+                <PlacerOrderNO>Z82785</PlacerOrderNO>
+                <ServiceID>08</ServiceID>
+                <ServiceText>普通彩超</ServiceText>
+                <ServiceSectID>US</ServiceSectID>
+                <ProcedureName>左下肢动脉</ProcedureName>
+                <RequestDeptID />
+                <RequestDeptName>内分泌内科*</RequestDeptName>
+                <ClinicDiagnosis>糖尿病&amp;lt;E14.900&gt;</ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges />
+                <TechnicianID>096</TechnicianID>
+                <TechnicianName>沈敏峰</TechnicianName>
+                <AccessionNumber>US315055</AccessionNumber>
+                <FillerOrderNO>315055</FillerOrderNO>
+                <RegTime>2019-05-04 14:25:55</RegTime>
+                <ObservationDate>2019-05-06 15:13:37</ObservationDate>
+                <ResultAssistantID>096</ResultAssistantID>
+                <ResultAssistantName>沈敏峰</ResultAssistantName>
+                <ResultPrincipalID />
+                <ResultPrincipalName />
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate>2019-05-06 15:17:54</PreliminaryDate>
+                <AuditDate />
+                <ReviseDate />
+                <ImageSight>左侧下肢动脉及分支扫查：
+                    左侧股总、股浅、股深、奈及胫前、胫后动脉内径正常范围，内－中膜无明显增厚，未见明显斑块回声，管腔内未见明显异常回声。
+                    CDFI示血流通畅。</ImageSight>
+                <ImageDiagnosis>左下肢动脉未见明显异常</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>Z00156208</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>60</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO>13566085869</ContactPhoneNO>
+                <AddressDetail>岭南乡白龙潭村王柏传</AddressDetail>
+                <WorkUnit>岭南乡白龙潭村王柏传</WorkUnit>
+                <OrganizationID>47151075233068211A2101</OrganizationID>
+                <VisitID />
+                <PatientClass>住院</PatientClass>
+                <PatientType />
+                <MedRecNO>Z00156208</MedRecNO>
+                <OutPatientNO />
+                <InPatientNO>00156208</InPatientNO>
+                <CardNO />
+                <PointOfCare>五病区</PointOfCare>
+                <Bed>五病区511</Bed>
+                <PlacerOrderNO>Z82787</PlacerOrderNO>
+                <ServiceID>08</ServiceID>
+                <ServiceText>普通彩超</ServiceText>
+                <ServiceSectID>US</ServiceSectID>
+                <ProcedureName>右下肢动脉</ProcedureName>
+                <RequestDeptID />
+                <RequestDeptName>内分泌内科*</RequestDeptName>
+                <ClinicDiagnosis>糖尿病&amp;lt;E14.900&gt;</ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges />
+                <TechnicianID>096</TechnicianID>
+                <TechnicianName>沈敏峰</TechnicianName>
+                <AccessionNumber>US315048</AccessionNumber>
+                <FillerOrderNO>315048</FillerOrderNO>
+                <RegTime>2019-05-04 14:23:43</RegTime>
+                <ObservationDate>2019-05-06 15:16:28</ObservationDate>
+                <ResultAssistantID>096</ResultAssistantID>
+                <ResultAssistantName>沈敏峰</ResultAssistantName>
+                <ResultPrincipalID />
+                <ResultPrincipalName />
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate>2019-05-06 15:18:56</PreliminaryDate>
+                <AuditDate />
+                <ReviseDate />
+                <ImageSight>右侧下肢动脉及分支扫查：
+                    右侧股总、股浅、股深、奈及胫前、胫后动脉内径正常范围，内－中膜无明显增厚，未见明显斑块回声，管腔内未见明显异常回声。
+                    CDFI示血流通畅。</ImageSight>
+                <ImageDiagnosis>右下肢动脉未见明显异常</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>Z00156208</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>60</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO>13566085869</ContactPhoneNO>
+                <AddressDetail>岭南乡白龙潭村王柏传</AddressDetail>
+                <WorkUnit>岭南乡白龙潭村王柏传</WorkUnit>
+                <OrganizationID>47151075233068211A2101</OrganizationID>
+                <VisitID />
+                <PatientClass>住院</PatientClass>
+                <PatientType />
+                <MedRecNO>Z00156208</MedRecNO>
+                <OutPatientNO />
+                <InPatientNO>00156208</InPatientNO>
+                <CardNO />
+                <PointOfCare>五病区</PointOfCare>
+                <Bed>五病区511</Bed>
+                <PlacerOrderNO>Z82786</PlacerOrderNO>
+                <ServiceID>08</ServiceID>
+                <ServiceText>普通彩超</ServiceText>
+                <ServiceSectID>US</ServiceSectID>
+                <ProcedureName>左下肢静脉</ProcedureName>
+                <RequestDeptID />
+                <RequestDeptName>内分泌内科*</RequestDeptName>
+                <ClinicDiagnosis>糖尿病&amp;lt;E14.900&gt;</ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges />
+                <TechnicianID>096</TechnicianID>
+                <TechnicianName>沈敏峰</TechnicianName>
+                <AccessionNumber>US315056</AccessionNumber>
+                <FillerOrderNO>315056</FillerOrderNO>
+                <RegTime>2019-05-04 14:26:03</RegTime>
+                <ObservationDate>2019-05-06 15:08:06</ObservationDate>
+                <ResultAssistantID>096</ResultAssistantID>
+                <ResultAssistantName>沈敏峰</ResultAssistantName>
+                <ResultPrincipalID />
+                <ResultPrincipalName />
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate>2019-05-06 15:18:21</PreliminaryDate>
+                <AuditDate />
+                <ReviseDate />
+                <ImageSight>左侧下肢深静脉扫查：
+                    左侧股总、股浅、股深、奈静脉内径正常范围，管腔内无明显异常回声，探头加压后管腔能被完全压瘪。
+                    CDFI示血流回流通畅，血流信号充盈良好。</ImageSight>
+                <ImageDiagnosis>左下肢深静脉未见明显异常</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>Z00156208</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>60</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO>13566085869</ContactPhoneNO>
+                <AddressDetail>岭南乡白龙潭村王柏传</AddressDetail>
+                <WorkUnit>岭南乡白龙潭村王柏传</WorkUnit>
+                <OrganizationID>47151075233068211A2101</OrganizationID>
+                <VisitID />
+                <PatientClass>住院</PatientClass>
+                <PatientType />
+                <MedRecNO>Z00156208</MedRecNO>
+                <OutPatientNO />
+                <InPatientNO>00156208</InPatientNO>
+                <CardNO />
+                <PointOfCare>五病区</PointOfCare>
+                <Bed>五病区511</Bed>
+                <PlacerOrderNO>Z82791</PlacerOrderNO>
+                <ServiceID>08</ServiceID>
+                <ServiceText>普通彩超</ServiceText>
+                <ServiceSectID>US</ServiceSectID>
+                <ProcedureName>甲状腺</ProcedureName>
+                <RequestDeptID />
+                <RequestDeptName>内分泌内科*</RequestDeptName>
+                <ClinicDiagnosis>糖尿病&amp;lt;E14.900&gt;</ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges />
+                <TechnicianID>096</TechnicianID>
+                <TechnicianName>沈敏峰</TechnicianName>
+                <AccessionNumber>US315053</AccessionNumber>
+                <FillerOrderNO>315053</FillerOrderNO>
+                <RegTime>2019-05-04 14:25:38</RegTime>
+                <ObservationDate>2019-05-06 15:10:18</ObservationDate>
+                <ResultAssistantID>096</ResultAssistantID>
+                <ResultAssistantName>沈敏峰</ResultAssistantName>
+                <ResultPrincipalID />
+                <ResultPrincipalName />
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate>2019-05-06 15:20:11</PreliminaryDate>
+                <AuditDate />
+                <ReviseDate />
+                <ImageSight>右侧甲状腺形态大小正常，上可见二枚弱回声结节，形态规则，边界清，约0.68*0.39cm、0.23*0.12cm。CDFI：未见明显异常血流信号。余实质回声均匀。CDFI：未见明显异常血流信号。
+                    左侧甲状腺形态大小正常，实质回声均匀。CDFI：未见明显异常血流信号。
+                    甲状腺峡部厚度正常，实质回声均匀，CDFI：未见明显异常血流信号。</ImageSight>
+                <ImageDiagnosis>右侧甲状腺结节（TI-RADS Ⅲ级）</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>CT-449684</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>60</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO>13566085869</ContactPhoneNO>
+                <AddressDetail>岭南乡白龙潭村王柏传</AddressDetail>
+                <WorkUnit>梁湖街道禄泽居委会徐</WorkUnit>
+                <OrganizationID>47151075233068211A2101</OrganizationID>
+                <VisitID />
+                <PatientClass>住院</PatientClass>
+                <PatientType />
+                <MedRecNO>Z00156208</MedRecNO>
+                <OutPatientNO />
+                <InPatientNO>00156208</InPatientNO>
+                <CardNO />
+                <PointOfCare />
+                <Bed>511</Bed>
+                <PlacerOrderNO>Z82793</PlacerOrderNO>
+                <ServiceID />
+                <ServiceText>常规CT</ServiceText>
+                <ServiceSectID>CT</ServiceSectID>
+                <ProcedureName>上腹部CT平扫|胸部CT平扫|脑CT平扫</ProcedureName>
+                <RequestDeptID />
+                <RequestDeptName>内分泌内科*</RequestDeptName>
+                <ClinicDiagnosis>糖尿病&amp;lt;E14.900&gt;</ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges />
+                <TechnicianID />
+                <TechnicianName>刘英</TechnicianName>
+                <AccessionNumber>1232239</AccessionNumber>
+                <FillerOrderNO>1232239</FillerOrderNO>
+                <RegTime>2019-05-04 10:41:46</RegTime>
+                <ObservationDate>2019-05-06 08:02:13</ObservationDate>
+                <ResultAssistantID />
+                <ResultAssistantName>唐海标</ResultAssistantName>
+                <ResultPrincipalID />
+                <ResultPrincipalName>唐海标</ResultPrincipalName>
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate>2019-05-06 15:01:31</PreliminaryDate>
+                <AuditDate>2019-05-06 15:01:31</AuditDate>
+                <ReviseDate />
+                <ImageSight>    各层面脑实质未见明显异常密度影，脑室系统未见明显扩大，脑沟脑裂未见明显增宽加深，中线结构居中，颅骨未见明显异常。
+                    左肺上叶条片状密度增高影，边缘模糊；右肺中叶斑点状、条索状影，边缘较清楚，右肺中叶肺大泡；左下叶背段直径约3mm小结节，边缘清楚；纵隔内未见明显肿大淋巴结影，两侧胸腔内无积液。冠状动脉钙化灶。
+                    肝包膜光整，各叶比例正常，肝Ⅳ段钙化灶，余肝肝实质密度均匀，未见明显异常密度影，肝内外胆管未见明显扩张；胆胰脾肾无殊，腹腔未见明显积液，腹膜后未见明显肿大淋巴结。
+                </ImageSight>
+                <ImageDiagnosis>    目前脑平扫未见明显异常，必要时复查。
+                    左肺上叶慢性炎症及纤维灶；右肺中叶纤维增殖灶，右肺中叶肺大泡；建议复查。
+                    冠状动脉钙化灶。
+                    肝Ⅳ段钙化灶，余上腹部平扫未见明显异常，必要时复查或增强扫描。
+                </ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>LN201901096</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>61</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO />
+                <AddressDetail>岭南乡白龙潭村王柏传</AddressDetail>
+                <WorkUnit />
+                <OrganizationID>73601929X33068212C2201</OrganizationID>
+                <VisitID>T7900011084</VisitID>
+                <PatientClass>体检</PatientClass>
+                <PatientType>体检</PatientType>
+                <MedRecNO>T7900011084</MedRecNO>
+                <OutPatientNO />
+                <InPatientNO />
+                <CardNO />
+                <PointOfCare />
+                <Bed />
+                <PlacerOrderNO>T693746</PlacerOrderNO>
+                <ServiceID>F2AA0712-DC16-1AA8-E043-360D4DACDF16</ServiceID>
+                <ServiceText>静息心电</ServiceText>
+                <ServiceSectID>ECG</ServiceSectID>
+                <ProcedureName />
+                <RequestDeptID>71a37c04-9059-4fd7-8917-6f92a5daa0e8</RequestDeptID>
+                <RequestDeptName>健康体检</RequestDeptName>
+                <ClinicDiagnosis>健康查体</ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges />
+                <TechnicianID>acad1c3b-a74e-4a57-ac00-a2dc00da42b4</TechnicianID>
+                <TechnicianName>谷烨</TechnicianName>
+                <AccessionNumber>LN201901096</AccessionNumber>
+                <FillerOrderNO>LN201901096</FillerOrderNO>
+                <RegTime>2019-04-14 07:51:46</RegTime>
+                <ObservationDate>2019-04-14 07:51:52</ObservationDate>
+                <ResultAssistantID>acad1c3b-a74e-4a57-ac00-a2dc00da42b4</ResultAssistantID>
+                <ResultAssistantName>谷烨</ResultAssistantName>
+                <ResultPrincipalID>acad1c3b-a74e-4a57-ac00-a2dc00da42b4</ResultPrincipalID>
+                <ResultPrincipalName>谷烨</ResultPrincipalName>
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate />
+                <AuditDate>2019-04-30 14:35:14</AuditDate>
+                <ReviseDate />
+                <ImageSight> </ImageSight>
+                <ImageDiagnosis>正常心电图</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>02770269</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate />
+                <Age>61</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO>13566085869</ContactPhoneNO>
+                <AddressDetail />
+                <WorkUnit />
+                <OrganizationID>47151074433068211A1001</OrganizationID>
+                <VisitID />
+                <PatientClass>门诊</PatientClass>
+                <PatientType />
+                <MedRecNO>02770269</MedRecNO>
+                <OutPatientNO>E1718729X</OutPatientNO>
+                <InPatientNO />
+                <CardNO>E1718729X</CardNO>
+                <PointOfCare />
+                <Bed />
+                <PlacerOrderNO>2296430-E1718729X</PlacerOrderNO>
+                <ServiceID />
+                <ServiceText>无痛肠镜</ServiceText>
+                <ServiceSectID>ES</ServiceSectID>
+                <ProcedureName>无痛肠镜检查</ProcedureName>
+                <RequestDeptID />
+                <RequestDeptName>消化内科</RequestDeptName>
+                <ClinicDiagnosis>便秘,</ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges />
+                <TechnicianID />
+                <TechnicianName>金国源</TechnicianName>
+                <AccessionNumber>ES232049</AccessionNumber>
+                <FillerOrderNO>232049</FillerOrderNO>
+                <RegTime>2019-08-30 10:22:42</RegTime>
+                <ObservationDate>2019-09-04 15:20:56</ObservationDate>
+                <ResultAssistantID />
+                <ResultAssistantName>金国源</ResultAssistantName>
+                <ResultPrincipalID />
+                <ResultPrincipalName />
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate>2019-09-04 15:22:41</PreliminaryDate>
+                <AuditDate />
+                <ReviseDate />
+                <ImageSight>肠道准备质量：较差。
+                    插镜至回盲部。肛门通过顺利。直肠粘膜光滑。乙状结肠、降结肠、横结肠、升结肠、盲肠黏膜色泽发黑，呈鱼鳞样改变。阑尾内口未见充血。回盲瓣呈乳头状。
+                    术中用药：丙泊酚针80mg iv.
+                    术后嘱：1、禁食2小时，24小时内禁饮酒；2、需有陪护人员陪同到家，不要单独外出；3、24小时内禁驾车。</ImageSight>
+                <ImageDiagnosis>结肠黑变病</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>LN202002412</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>62</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO />
+                <AddressDetail>岭南乡白龙潭村王柏传</AddressDetail>
+                <WorkUnit />
+                <OrganizationID>73601929X33068212C2201</OrganizationID>
+                <VisitID>T7900015847</VisitID>
+                <PatientClass>体检</PatientClass>
+                <PatientType>体检</PatientType>
+                <MedRecNO>T7900015847</MedRecNO>
+                <OutPatientNO />
+                <InPatientNO />
+                <CardNO />
+                <PointOfCare />
+                <Bed />
+                <PlacerOrderNO>T939162</PlacerOrderNO>
+                <ServiceID>F2AA0712-DC16-1AA8-E043-360D4DACDF16</ServiceID>
+                <ServiceText>静息心电</ServiceText>
+                <ServiceSectID>ECG</ServiceSectID>
+                <ProcedureName />
+                <RequestDeptID>71a37c04-9059-4fd7-8917-6f92a5daa0e8</RequestDeptID>
+                <RequestDeptName>健康体检</RequestDeptName>
+                <ClinicDiagnosis>健康查体</ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges />
+                <TechnicianID>6d7344ae-ff9a-4b8a-ac38-ab130098c9cb</TechnicianID>
+                <TechnicianName>景益佳</TechnicianName>
+                <AccessionNumber>LN202002412</AccessionNumber>
+                <FillerOrderNO>LN202002412</FillerOrderNO>
+                <RegTime>2020-06-13 07:43:33</RegTime>
+                <ObservationDate>2020-06-13 07:43:43</ObservationDate>
+                <ResultAssistantID>6d7344ae-ff9a-4b8a-ac38-ab130098c9cb</ResultAssistantID>
+                <ResultAssistantName>景益佳</ResultAssistantName>
+                <ResultPrincipalID>6d7344ae-ff9a-4b8a-ac38-ab130098c9cb</ResultPrincipalID>
+                <ResultPrincipalName>景益佳</ResultPrincipalName>
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate />
+                <AuditDate>2020-06-25 13:23:20</AuditDate>
+                <ReviseDate />
+                <ImageSight> </ImageSight>
+                <ImageDiagnosis>正常心电图</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>CTSYSY-44440</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>63</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO>13867829176</ContactPhoneNO>
+                <AddressDetail>岭南乡白龙潭村王柏传</AddressDetail>
+                <WorkUnit />
+                <OrganizationID>PDY64693733060417A1002</OrganizationID>
+                <VisitID />
+                <PatientClass>门诊</PatientClass>
+                <PatientType>门诊</PatientType>
+                <MedRecNO>E1718729X</MedRecNO>
+                <OutPatientNO>E1718729X</OutPatientNO>
+                <InPatientNO />
+                <CardNO>E1718729X</CardNO>
+                <PointOfCare />
+                <Bed />
+                <PlacerOrderNO>99111172</PlacerOrderNO>
+                <ServiceID>03001</ServiceID>
+                <ServiceText>常规CT</ServiceText>
+                <ServiceSectID>CT</ServiceSectID>
+                <ProcedureName>L3－S1椎间盘平扫</ProcedureName>
+                <RequestDeptID />
+                <RequestDeptName>颈肩腰腿痛</RequestDeptName>
+                <ClinicDiagnosis>脊椎病
+                </ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges>117</Charges>
+                <TechnicianID />
+                <TechnicianName />
+                <AccessionNumber>SYSY-181699</AccessionNumber>
+                <FillerOrderNO>RISSYSY-181699</FillerOrderNO>
+                <RegTime>2021-05-20 09:04:16</RegTime>
+                <ObservationDate>2021-05-20 09:33:32</ObservationDate>
+                <ResultAssistantID>002</ResultAssistantID>
+                <ResultAssistantName>夏孟飞</ResultAssistantName>
+                <ResultPrincipalID>002</ResultPrincipalID>
+                <ResultPrincipalName>夏孟飞</ResultPrincipalName>
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate>2021-05-20 10:21:14</PreliminaryDate>
+                <AuditDate>2021-05-20 10:21:14</AuditDate>
+                <ReviseDate />
+                <ImageSight>L3/L4椎间盘向四周轻度膨出，硬膜囊稍受压，椎间孔稍狭窄，黄韧带未见明显增厚。L3－S1椎体边缘骨质增生影。定位片示腰椎生理曲度存在。</ImageSight>
+                <ImageDiagnosis>L3/L4椎间盘轻度膨出，腰椎退行性改变。</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>MRSYSY-10011</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>63</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO>13867829176</ContactPhoneNO>
+                <AddressDetail>岭南乡白龙潭村王柏传</AddressDetail>
+                <WorkUnit />
+                <OrganizationID>PDY64693733060417A1002</OrganizationID>
+                <VisitID />
+                <PatientClass>门诊</PatientClass>
+                <PatientType>门诊</PatientType>
+                <MedRecNO>E1718729X</MedRecNO>
+                <OutPatientNO>E1718729X</OutPatientNO>
+                <InPatientNO />
+                <CardNO>E1718729X</CardNO>
+                <PointOfCare />
+                <Bed />
+                <PlacerOrderNO>99121832</PlacerOrderNO>
+                <ServiceID>03005</ServiceID>
+                <ServiceText>常规MR</ServiceText>
+                <ServiceSectID>MR</ServiceSectID>
+                <ProcedureName>腰椎平扫</ProcedureName>
+                <RequestDeptID />
+                <RequestDeptName>颈肩腰腿痛</RequestDeptName>
+                <ClinicDiagnosis>脊椎病
+                </ClinicDiagnosis>
+                <ObservationDeptName />
+                <Charges>495</Charges>
+                <TechnicianID />
+                <TechnicianName />
+                <AccessionNumber>SYSY-181785</AccessionNumber>
+                <FillerOrderNO>RISSYSY-181785</FillerOrderNO>
+                <RegTime>2021-05-20 10:45:02</RegTime>
+                <ObservationDate>2021-05-20 11:41:12</ObservationDate>
+                <ResultAssistantID>003</ResultAssistantID>
+                <ResultAssistantName>孙玉君</ResultAssistantName>
+                <ResultPrincipalID>003</ResultPrincipalID>
+                <ResultPrincipalName>孙玉君</ResultPrincipalName>
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate>2021-05-20 14:08:44</PreliminaryDate>
+                <AuditDate>2021-05-20 14:08:44</AuditDate>
+                <ReviseDate />
+                <ImageSight>扫描序列：AX(T2WI) SAG(T1WI,T2WI)
+                    L1-5顺列，曲度存在。椎体边缘骨质增生，T12、L3椎体形态变扁，T12椎体可见斑片样长T1长T2信号，L3椎体上下缘不整，局部凹陷，附件无殊。所见椎间盘信号T2减低，L3/4、L4/5椎间盘轻度向周围膨出，相应硬膜囊前缘稍受压。余椎间盘尚可。脊髓圆锥及马尾信号无异常。</ImageSight>
+                <ImageDiagnosis>腰椎退行变，T12急性压缩骨折考虑、L3椎体压缩性骨折，L3/4、L4/5椎间盘轻度向周围膨出、变性。</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+            <ExamInfo>
+                <PatientID>E1718729X</PatientID>
+                <Name>王小娟</Name>
+                <Sex>女</Sex>
+                <BirthDate>1958-05-05 00:00:00</BirthDate>
+                <Age>63</Age>
+                <IDCardNO>330622195805057742</IDCardNO>
+                <ContactPhoneNO>13867829176</ContactPhoneNO>
+                <AddressDetail>白龙潭村４－８２号</AddressDetail>
+                <WorkUnit>白龙潭村４－８２号</WorkUnit>
+                <OrganizationID>47151076033068211G1001</OrganizationID>
+                <VisitID />
+                <PatientClass>门诊</PatientClass>
+                <PatientType />
+                <MedRecNO>E1718729X</MedRecNO>
+                <OutPatientNO>E1718729X</OutPatientNO>
+                <InPatientNO />
+                <CardNO>E1718729X</CardNO>
+                <PointOfCare />
+                <Bed />
+                <PlacerOrderNO />
+                <ServiceID />
+                <ServiceText>普通彩超</ServiceText>
+                <ServiceSectID>US</ServiceSectID>
+                <ProcedureName>两癌</ProcedureName>
+                <RequestDeptID />
+                <RequestDeptName />
+                <ClinicDiagnosis />
+                <ObservationDeptName />
+                <Charges />
+                <TechnicianID />
+                <TechnicianName>沈国苗</TechnicianName>
+                <AccessionNumber>US805643</AccessionNumber>
+                <FillerOrderNO>805643</FillerOrderNO>
+                <RegTime>2021-09-02 09:36:50</RegTime>
+                <ObservationDate>2021-09-02 09:38:54</ObservationDate>
+                <ResultAssistantID />
+                <ResultAssistantName>沈国苗</ResultAssistantName>
+                <ResultPrincipalID />
+                <ResultPrincipalName />
+                <ResultReviseID />
+                <ResultReviseName />
+                <PreliminaryDate>2021-09-02 09:38:54</PreliminaryDate>
+                <AuditDate />
+                <ReviseDate />
+                <ImageSight>右乳
+                    囊肿 无
+                    实质肿块 无
+                    左乳
+                    囊肿 无
+                    实质肿块 无</ImageSight>
+                <ImageDiagnosis>右乳BI-RADS 分类 2级
+                    左乳BI-RADS 分类 2级</ImageDiagnosis>
+                <ResultPrintCount />
+            </ExamInfo>
+        </ExamInfoList>
+    </ExamInfoResult>
+</Response>
