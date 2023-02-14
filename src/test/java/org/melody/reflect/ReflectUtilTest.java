@@ -14,15 +14,29 @@ import static org.junit.jupiter.api.Assertions.*;
 class ReflectUtilTest {
 
     @Test
-    void getMethods() throws NoSuchMethodException {
+    void findMethods() throws NoSuchMethodException {
+        Method setVersion = findMethods(TargetBean.class, "equals", Object.class);
+        System.out.println("equals: " + setVersion);
+    }
 
-        Method[] methods = TargetBean.class.getMethods();
 
-        Method method1 = TargetBean.class.getMethod("setVersion", int.class);
-        System.out.println(method1);
+    public Method findMethods(Class<?> clazz, String methodName, Class<?>... paramTypes) {
+        try {
+            return clazz.getMethod(methodName, paramTypes);
+        } catch (NoSuchMethodException e) {
+            return findDeclaredMethod(clazz, methodName, paramTypes);
+        }
+    }
 
-        for (Method method : methods) {
-            System.out.println("method: " + method.getName());
+    private Method findDeclaredMethod(Class<?> clazz, String methodName, Class<?>[] paramTypes) {
+        try {
+            return clazz.getDeclaredMethod(methodName, paramTypes);
+        } catch (NoSuchMethodException e) {
+            // 目标类的超类里寻找
+            if (clazz.getSuperclass() != null) {
+                return findDeclaredMethod(clazz, methodName, paramTypes);
+            }
+            return null;
         }
     }
 

@@ -1,10 +1,12 @@
 package org.melody.reflect;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
+import com.sun.istack.internal.Nullable;
+import com.sun.tools.javac.util.Assert;
+
+import java.lang.reflect.*;
 import java.util.Arrays;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 反射工具类
@@ -13,18 +15,86 @@ import java.util.Arrays;
  */
 public class ReflectUtil {
 
+
+    private static final Map<Class<?>, Field[]> declaredFieldCache = new ConcurrentHashMap<>(256);
+
     /**
-     * 通过反射获取javaBean的方法名
+     * 通过反射获取类中的方法
+     * @param clazz 检查的目标类
+     * @param methodName 方法名
+     * @param paramTypes 方法所需要的参数
+     * @return 返回类对象或者null
      */
-    public static void getMethods() throws NoSuchMethodException {
-        Method[] methods = TargetBean.class.getMethods();
-
-        Method method1 = TargetBean.class.getMethod("getVersion");
-        System.out.println(method1);
-
-        for (Method method : methods) {
-            System.out.println("method: " + method.getName());
+    public static Method findMethods(Class<?> clazz, String methodName, Class<?>... paramTypes) {
+        try {
+            return clazz.getMethod(methodName, paramTypes);
+        } catch (NoSuchMethodException e) {
+            return findDeclaredMethod(clazz, methodName, paramTypes);
         }
+    }
+
+    /**
+     * 使用递归找寻改类及其超类中的任意指定的方法
+     *  在<code>paramTypes</code>,<code>methodName</code>设置容易不正确的时候容易内存溢出
+     * @param clazz 检查的目标类
+     * @param methodName 方法名
+     * @param paramTypes 方法所需要的参数
+     * @return 返回类对象或者null
+     */
+    private static Method findDeclaredMethod(Class<?> clazz, String methodName, Class<?>[] paramTypes) {
+        try {
+            return clazz.getDeclaredMethod(methodName, paramTypes);
+        } catch (NoSuchMethodException e) {
+            // 目标类的超类里寻找
+            if (clazz.getSuperclass() != null) {
+                return findDeclaredMethod(clazz, methodName, paramTypes);
+            }
+            return null;
+        }
+    }
+
+    /**
+     * @param clazz 检查的类
+     * @param name 类的成员变量名
+     * @return 对应的字段对象，如果没有找到，则为null
+     */
+    public static Field findField(Class<?> clazz, String name) {
+        return findField(clazz, name, null);
+    }
+
+    @Nullable
+    public static Field findField(Class<?> clazz, @Nullable String name, @Nullable Type type) {
+        Assert.checkNonNull(clazz, "Class不能为空");
+        Assert.check(name != null || type != null, "name或者type参数不能同时为空");
+        Class<?> searchType = clazz;
+        // 查询到Object说明已经查询完毕 跳出循环
+        while (Object.class != clazz && searchType != null) {
+            Field[] fields = getDeclaredFields(searchType);
+            for (Field field : fields) {
+                if ((name == null || name.equals(field.getName())) &&
+                        (type == null || type.equals(field.getType()))) {
+                    return field;
+                }
+            }
+            // 继续向超类搜索
+            searchType = searchType.getSuperclass();
+        }
+        return null;
+    }
+
+    private static Field[] getDeclaredFields(Class<?> clazz) {
+        Assert.checkNonNull(clazz, "Class不能为空");
+        Field[] result = declaredFieldCache.get(clazz);
+        if (result == null) {
+            try {
+                result = clazz.getDeclaredFields();
+                declaredFieldCache.put(clazz, (result.length == 0)? new Field[0]: result);
+            } catch (Throwable e) {
+                throw new IllegalStateException("Failed to introspect Class [" + clazz.getName() +
+                        "] from ClassLoader [" + clazz.getClassLoader() + "]", e);
+            }
+        }
+        return result;
     }
 
     /**
