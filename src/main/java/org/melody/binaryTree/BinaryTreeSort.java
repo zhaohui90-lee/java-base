@@ -45,6 +45,22 @@ class BinaryTreeSort {
         }
     }
 
+    /**
+     * @author chatGPT
+     * @since 2023/2/5
+     */
+    static class Node {
+        int data;
+        Node left;
+        Node right;
+
+        Node(int data) {
+            this.data = data;
+            left = null;
+            right = null;
+        }
+    }
+
     public static void main(String[] args) {
         BinaryTreeSort tree = new BinaryTreeSort();
 
