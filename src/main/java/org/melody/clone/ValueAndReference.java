@@ -10,7 +10,7 @@ public class ValueAndReference {
         Dog dog = new Dog("MAX");
         System.out.println(dog);
         foo(dog);
-        System.out.println(dog.getName().equals("Bard"));
+        System.out.println(dog.getName().equals("Bard")); // false
     }
 
     public static void foo(Dog d) {
