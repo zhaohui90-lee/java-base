@@ -1,13 +1,15 @@
 package org.melody.pojo;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 /**
  * @author lizhaohui
  * @since 2023/2/6
  */
-public class Person implements Serializable {
+public class Person implements Serializable, Cloneable {
 
     private static final long serialVersionUID = 7189211921572930511L;
 
@@ -16,6 +18,16 @@ public class Person implements Serializable {
     private int age;
 
     private String address;
+
+    private List<String> properties = new ArrayList<>();
+
+    public List<String> getHouseProperties() {
+        return properties;
+    }
+
+    public void setHouseProperties(List<String> houseProperties) {
+        this.properties = houseProperties;
+    }
 
     public String getName() {
         return name;
@@ -59,5 +71,14 @@ public class Person implements Serializable {
         result = 31 * result + age;
         result = 31 * result + (address != null ? address.hashCode() : 0);
         return result;
+    }
+
+    @Override
+    public Person clone() {
+        try {
+            return (Person) super.clone();
+        } catch (CloneNotSupportedException e) {
+            throw new AssertionError();
+        }
     }
 }
