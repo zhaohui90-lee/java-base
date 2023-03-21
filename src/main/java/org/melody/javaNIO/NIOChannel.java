@@ -8,9 +8,9 @@ import java.nio.channels.FileChannel;
 
 /**
  * Java NIO Channels are similar to streams with a few differences:
- *  You can both read and write to a Channels. Streams are typically one-way (read or write).
- *  Channels can be read and written asynchronously.
- *  Channels always read to, or write from, a Buffer.
+ *  You can both read and write to a Channels. Streams are typically one-way (read or write).<br>
+ *  Channels can be read and written asynchronously.<br>
+ *  Channels always read to, or write from, a Buffer.<br>
  *  <b>Java NIO: Channels read data into Buffers, and Buffers write data into Channels</b>
  * @author lizhaohui
  * @since 2023/1/8
