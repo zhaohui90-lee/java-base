@@ -1,7 +1,7 @@
 package org.melody.reflect;
 
 import com.sun.istack.internal.Nullable;
-import com.sun.tools.javac.util.Assert;
+
 
 import java.lang.reflect.*;
 import java.util.Arrays;
@@ -64,8 +64,8 @@ public class ReflectUtil {
 
     @Nullable
     public static Field findField(Class<?> clazz, @Nullable String name, @Nullable Type type) {
-        Assert.checkNonNull(clazz, "Class不能为空");
-        Assert.check(name != null || type != null, "name或者type参数不能同时为空");
+//        Assert.checkNonNull(clazz, "Class不能为空");
+//        Assert.check(name != null || type != null, "name或者type参数不能同时为空");
         Class<?> searchType = clazz;
         // 查询到Object说明已经查询完毕 跳出循环
         while (Object.class != clazz && searchType != null) {
@@ -83,7 +83,7 @@ public class ReflectUtil {
     }
 
     private static Field[] getDeclaredFields(Class<?> clazz) {
-        Assert.checkNonNull(clazz, "Class不能为空");
+//        Assert.checkNonNull(clazz, "Class不能为空");
         Field[] result = declaredFieldCache.get(clazz);
         if (result == null) {
             try {

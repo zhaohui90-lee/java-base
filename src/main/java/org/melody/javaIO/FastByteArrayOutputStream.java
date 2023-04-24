@@ -9,6 +9,7 @@ import java.io.OutputStream;
 import java.nio.charset.Charset;
 
 /**
+ * 快速的字节数组输出流，内部使用{@link FastByteBuffer}实现
  * @author lizhaohui
  * @since 2023/3/8
  */
@@ -16,6 +17,9 @@ public class FastByteArrayOutputStream extends OutputStream {
 
     private final FastByteBuffer buffer;
 
+    /**
+     * 构造 默认大小为1024
+     */
     public FastByteArrayOutputStream() {
         this(1024);
     }
@@ -48,7 +52,7 @@ public class FastByteArrayOutputStream extends OutputStream {
     }
 
     /**
-     * 写出
+     * 转为字符串
      * @param out 输出流
      * @exception IORuntimeException IO异常
      */
@@ -59,11 +63,13 @@ public class FastByteArrayOutputStream extends OutputStream {
             return;
         }
         byte[] buf;
+        // 写入所有缓冲区
         try {
             for (int i = 0; i < index; i++) {
                 buf = buffer.array(i);
                 out.write(buf);
             }
+            // 写入最后一个缓冲区
             out.write(buffer.array(index), 0, buffer.offset());
         } catch (IOException e) {
             throw new IORuntimeException(e);

@@ -57,6 +57,7 @@ public class IoUtil {
     public static void writeObjects(OutputStream out, boolean isCloseOut, Serializable... contents) {
         ObjectOutputStream ost = null;
         try {
+            // 如果是ObjectOutputStream直接写入，否则新建一个
             ost = out instanceof ObjectOutputStream ? (ObjectOutputStream)out: new ObjectOutputStream(out);
             for (Object content : contents) {
                 if (content != null) {
