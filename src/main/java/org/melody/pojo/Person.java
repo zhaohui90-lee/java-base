@@ -9,7 +9,7 @@ import java.util.Objects;
  * @author lizhaohui
  * @since 2023/2/6
  */
-public class Person implements Serializable, Cloneable {
+public class Person implements Serializable {
 
     private static final long serialVersionUID = 7189211921572930511L;
 
@@ -53,6 +53,17 @@ public class Person implements Serializable, Cloneable {
         this.address = address;
     }
 
+    public Person() {
+    }
+
+    // 复制构造函数
+    public Person(Person original) {
+        this.name = original.name;
+        this.age = original.age;
+        this.address = original.address;
+        this.properties = original.properties;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -60,25 +71,13 @@ public class Person implements Serializable, Cloneable {
 
         Person person = (Person) o;
 
-        if (age != person.age) return false;
-        if (!Objects.equals(name, person.name)) return false;
-        return Objects.equals(address, person.address);
+        return age == person.age &&
+                Objects.equals(name, person.name) &&
+                Objects.equals(address, person.address);
     }
 
     @Override
     public int hashCode() {
-        int result = name != null ? name.hashCode() : 0;
-        result = 31 * result + age;
-        result = 31 * result + (address != null ? address.hashCode() : 0);
-        return result;
-    }
-
-    @Override
-    public Person clone() {
-        try {
-            return (Person) super.clone();
-        } catch (CloneNotSupportedException e) {
-            throw new AssertionError();
-        }
+        return Objects.hash(name, age, address);
     }
 }

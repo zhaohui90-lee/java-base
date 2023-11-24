@@ -35,21 +35,31 @@ class SerializeUtilTest {
         p.setHouseProperties(houseProperties);
         System.out.println(p);
 
-        // 浅拷贝
-        Person shallowClone = p.clone();
-        System.out.println(shallowClone.getAge());
-        System.out.println(shallowClone.getAddress());
-        System.out.println(shallowClone.getName());
-        System.out.println(p.getHouseProperties() == shallowClone.getHouseProperties()); // true
 
+        // 拷贝
+        Person copy = new Person(p);
+        assertEquals(p, copy);
 
+        System.out.println(p == copy);
+        System.out.println(p.equals(copy));
+        System.out.println("Original Value: " + p.getName());
+        System.out.println("Copied Value: " + copy.getName());
 
-        // 深拷贝
-        Person deepClone = SerializeUtil.clone(p);
-        System.out.println(deepClone.getAge());
-        System.out.println(deepClone.getAddress());
-        System.out.println(deepClone.getName());
-
-        System.out.println(p.getHouseProperties() == deepClone.getHouseProperties()); // false
+//        // 浅拷贝
+//        Person shallowClone = p.clone();
+//        System.out.println(shallowClone.getAge());
+//        System.out.println(shallowClone.getAddress());
+//        System.out.println(shallowClone.getName());
+//        System.out.println(p.getHouseProperties() == shallowClone.getHouseProperties()); // true
+//
+//
+//
+//        // 深拷贝
+//        Person deepClone = SerializeUtil.clone(p);
+//        System.out.println(deepClone.getAge());
+//        System.out.println(deepClone.getAddress());
+//        System.out.println(deepClone.getName());
+//
+//        System.out.println(p.getHouseProperties() == deepClone.getHouseProperties()); // false
     }
 }
