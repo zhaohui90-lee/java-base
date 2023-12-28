@@ -37,6 +37,7 @@ public class XmlToMapJAXB {
 
 
     public static void main(String[] args) throws JAXBException {
+//        JAXBContext jaxbContext = JAXBContext.newInstance(Customer.class);
         JAXBContext jaxbContext = JAXBContext.newInstance(Customer.class);
         Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
         Customer customer = (Customer) jaxbUnmarshaller.unmarshal(new File("customer.xml"));

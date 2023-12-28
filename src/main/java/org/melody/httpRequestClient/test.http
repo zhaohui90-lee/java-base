@@ -1,0 +1,7 @@
+POST http://localhost:7774/api/patient/jd2his_q_patient
+Content-Type: application/x-www-form-urlencoded
+
+device_no = JD001 &
+name = 张三 &
+id_card = 111111 &
+id_type = 1212121 & patient_id = 232323

@@ -1,7 +1,5 @@
 package org.melody.reflect;
 
-import com.sun.istack.internal.Nullable;
-
 
 import java.lang.reflect.*;
 import java.util.Arrays;
@@ -10,6 +8,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 反射工具类
+ *
  * @author lizhaohui
  * @since 2023/2/9
  */
@@ -20,7 +19,8 @@ public class ReflectUtil {
 
     /**
      * 通过反射获取类中的方法
-     * @param clazz 检查的目标类
+     *
+     * @param clazz      检查的目标类
      * @param methodName 方法名
      * @param paramTypes 方法所需要的参数
      * @return 返回类对象或者null
@@ -35,8 +35,9 @@ public class ReflectUtil {
 
     /**
      * 使用递归找寻改类及其超类中的任意指定的方法
-     *  在<code>paramTypes</code>,<code>methodName</code>设置容易不正确的时候容易内存溢出
-     * @param clazz 检查的目标类
+     * 在<code>paramTypes</code>,<code>methodName</code>设置容易不正确的时候容易内存溢出
+     *
+     * @param clazz      检查的目标类
      * @param methodName 方法名
      * @param paramTypes 方法所需要的参数
      * @return 返回类对象或者null
@@ -55,15 +56,15 @@ public class ReflectUtil {
 
     /**
      * @param clazz 检查的类
-     * @param name 类的成员变量名
+     * @param name  类的成员变量名
      * @return 对应的字段对象，如果没有找到，则为null
      */
     public static Field findField(Class<?> clazz, String name) {
         return findField(clazz, name, null);
     }
 
-    @Nullable
-    public static Field findField(Class<?> clazz, @Nullable String name, @Nullable Type type) {
+
+    public static Field findField(Class<?> clazz, String name, Type type) {
 //        Assert.checkNonNull(clazz, "Class不能为空");
 //        Assert.check(name != null || type != null, "name或者type参数不能同时为空");
         Class<?> searchType = clazz;
@@ -88,7 +89,7 @@ public class ReflectUtil {
         if (result == null) {
             try {
                 result = clazz.getDeclaredFields();
-                declaredFieldCache.put(clazz, (result.length == 0)? new Field[0]: result);
+                declaredFieldCache.put(clazz, (result.length == 0) ? new Field[0] : result);
             } catch (Throwable e) {
                 throw new IllegalStateException("Failed to introspect Class [" + clazz.getName() +
                         "] from ClassLoader [" + clazz.getClassLoader() + "]", e);
