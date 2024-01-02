@@ -18,7 +18,7 @@ public class Person implements PersonApi {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name) {

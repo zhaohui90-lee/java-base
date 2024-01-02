@@ -14,7 +14,8 @@ public class FileMethods {
 
         String tempPath = "";
 
-        Path path = Files.writeString(Files.createTempFile(Path.of(tempPath), "demo", ".txt"), "This was posted on JD");
+        Path path = Files.writeString(Files.createTempFile(Path.of(tempPath), "demo", ".txt"),
+                "This was posted on JD");
 
         String readString = Files.readString(path);
 

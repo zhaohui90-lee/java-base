@@ -1,6 +1,5 @@
 package org.melody.gson;
 
-import cn.hutool.core.codec.Base64Encoder;
 import com.google.gson.Gson;
 
 import java.util.HashMap;
@@ -47,7 +46,7 @@ public class Test {
 
 
 
-        String encode = Base64Encoder.encode(jsons);
+        String encode = java.util.Base64.getEncoder().encodeToString(jsons.getBytes());
         System.out.println(encode);
 
         Map m = new HashMap();

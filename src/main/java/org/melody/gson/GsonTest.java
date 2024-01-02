@@ -4,7 +4,6 @@ import com.google.gson.Gson;
 import org.melody.gson.pojo.Person;
 
 import java.util.ArrayList;
-import java.util.Map;
 
 /**
  * @author lizhaohui
